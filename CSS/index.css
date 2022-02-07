@@ -320,11 +320,12 @@ footer ul{
     display: inline-flex;
     list-style: none;
     margin-left:180px ;
+
     position: absolute;
     left: 340px;
     bottom: 30px;
     /* border: 1px solid black; */
-    /* z-index: 2; */
+   
     
 
 }   
@@ -352,10 +353,12 @@ footer li a{
 
 
 footer li span{
-    display: block;
+    /* display: block; */
     color: white;
     margin-left: 20px;
     /* border-left: 2px solid yellow; */
+    font-size: 16px;
+    font-weight:;
     
 }
 
