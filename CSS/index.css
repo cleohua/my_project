@@ -586,7 +586,7 @@ footer li span{
 
 
 .item_top button{
-    background-color: #ffffff;
+    background-color: #e6e7e0;
     margin-right: 20px;
     height: 30px;
     width: 100px;
@@ -738,7 +738,7 @@ footer li span{
     font-size: 25px;
     font-family: inherit;
     margin-top:50px ;
-    background-color: white;
+    background-color: #e6e7e0;
     border: 2px solid #656c72;
     border-radius: 20px;
     width: 150px;
@@ -846,7 +846,7 @@ footer li span{
     border-radius: 20px;
     height: 35px;
     width: 80px;
-    background-color: white;
+    background-color:#e6e7e0;
     border:2px solid #656c72;
     
 }
