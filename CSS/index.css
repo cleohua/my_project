@@ -245,7 +245,7 @@ body{
 
 
 .second .sp1{
-    position: absolute;
+    /* position: absolute;
     text-align: center;
     padding: 130px;
     top: 10px;
@@ -253,25 +253,25 @@ body{
     width: 382.5px;
     height: 318px;
     overflow: hidden;
-    font-size: 30px;
+    font-size: 30px; */
     /* border: 1px solid green; */
-    font-family:inherit;
+    /* font-family:inherit;
     color: #ffffff;
     background-color: rgba(101, 101, 101, 0.6);;
     opacity: 0;
     font-weight: bold;
-    border-radius:10px ;
+    border-radius:10px ; */
 }
 
 
 .second .sp1:hover{
-    opacity: 1;
+    /* opacity: 1; */
     
 
 }
 
 .second .sp2{
-    position: absolute;
+    /* position: absolute;
     text-align: center;
     padding: 130px;
     top: 10px;
@@ -279,18 +279,18 @@ body{
     width: 382.5px;
     height: 318px;
     overflow: hidden;
-    font-size: 30px;
+    font-size: 30px; */
     /* border: 1px solid green; */
-    font-family:inherit;
+    /* font-family:inherit;
     color: #ffffff;
     background-color: rgba(101, 101, 101, 0.6);;
     opacity: 0;
     font-weight: bold;
-    border-radius:10px ;
+    border-radius:10px ; */
 }
 
 .second .sp2:hover{
-    opacity: 1;
+    /* opacity: 1; */
 }
 
 
