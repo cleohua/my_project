@@ -132,8 +132,6 @@ body{
     /* left: 0;
     top:0;  */
     background-color: white;
-   
-    
     
 
 }
@@ -196,9 +194,25 @@ body{
 .second{
     background-color: #F7f1e9;
     display: block;
-    margin-top:-4px;
+    margin-top:-9px;
     text-align: center;
 
+}
+
+.s_banner{
+    /* width: px;
+    height: 450px; */
+    overflow: hidden;
+    margin: 5px auto;
+    /* border: 1px solid black; */
+}
+
+.s_banner img{
+    transform:scale(1,1);transition: all 1s ease-out;
+}
+
+.s_banner img:hover{
+    transform:scale(1.2,1.2);
 }
 
 
