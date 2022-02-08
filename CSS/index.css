@@ -74,7 +74,7 @@ body{
   
 }  */
 
-.home_header ul{ 
+.home_header .navbar{ 
     /* background-image: url("../IMG/white_logo.png"); */
     display: flex;
     text-align:right;
@@ -102,8 +102,23 @@ body{
     /* margin-bottom: 50px; */
     
     
-   
+}
 
+
+.pro_li{
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: rgba(255, 255, 255, .5);
+    width: 120px;
+    height: 80px;
+    
+}
+
+
+
+.nav_pro:hover .pro_li{
+    display: block;
 }
 
 .home_header a{
@@ -115,7 +130,19 @@ body{
     
 }
 
+.pro_li a{
+    font-size: 17px;
+    line-height: 2;
+    width: 120px;
+    text-align: center;
+    color:#556952;
+    font-weight: bold;
+    margin-top: 5px;
+    /* border: 1px solid black; */
 
+    
+
+}
 
 .home_header a:hover{
     display: block;
