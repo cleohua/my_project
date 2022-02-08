@@ -680,14 +680,15 @@ footer li span{
 
     
 }
-/* 
+
 .items{ 
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    text-align: center;
    
     
 
-} */
+} 
 
 .items ul{
 	/* border: 1px solid black; */
@@ -940,30 +941,60 @@ footer li span{
 
 .course_introduce{
     text-align: center;
-    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    
 }
 
-.course_introduce ul{
-    margin-top: 30px;
+.course_introduce img{
+    display: block;
+
+}
+
+.course_introduce ul {
+    /* margin-top: 30px; */
+    /* display: inline; */
+    list-style: none;
+    /* margin: 0 auto; */
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
 }
 
 .course_introduce li{
-    margin-bottom: 50px;
-    margin-top: 30px;
+    display: flex;
+    margin-bottom: 35px;
+    
+    
+    
 }
 
 .course_ba1{
+    position: relative;
+    /* border: 1px solid red; */
+    
+    
+    
+}
+
+.course_p{
     position: absolute;
-    top: 50px;
-    right: 350px;
-    text-align: left;
+    top: 40px;
+    left: 40px;
 }
 
 .course_ba2{
+    position: relative;
+    
+   
+    
+}
+
+.course_p2{
     position: absolute;
-    bottom: 180px;
-    left: 275px;
-    text-align: left;
+    top: 40px;
+    left: 40px;
+
 }
 
 
@@ -974,12 +1005,20 @@ footer li span{
     font-weight: lighter;
     font-size: 25px;
     border-bottom: 1px solid white;
+    width: 300px;
+    text-align: left;
+    
+
 }
 
 .course_introduce p{
-    margin-top: 20px;
+
     color: white;
     font-family: inherit;
+    font-size: 16px;
+    text-align: left;
+    margin-top:5px ;
+    
 }
 
 .login_banner{
