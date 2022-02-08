@@ -582,12 +582,18 @@ footer li span{
     list-style: none;
 }
 
+.design_main img{
+    display: block;
+}
+
 .design_main .db1{
     position: absolute;
     top: 50px;
     left: 220px;
 
 }
+
+
 
 .design_main .db2{
     position: absolute;
