@@ -15,6 +15,7 @@ body{
 
 }
 
+/*-------------首頁-----------*/
 
 .home_header{
     position: absolute;
@@ -499,6 +500,9 @@ footer li span{
     
 }
 
+
+/*--------關於我們--------*/
+
 .about_header{
     /* border: 1px solid black; */
     background-color: #556952;
@@ -673,6 +677,9 @@ footer li span{
     font-family: 'Merriweather', serif;
 }
 
+
+/*------Design----------*/
+
 .design_main{
     height: 1500px;
 
@@ -749,6 +756,8 @@ footer li span{
 }
 
 
+/*----------產品頁----------*/
+
 .item_top img{
 	margin-top:20px;
     margin-left: 220px;
@@ -773,6 +782,10 @@ footer li span{
     
 
 
+}
+
+.item_top button:hover{
+    border: 3px solid #656c72;
 }
 
 
@@ -933,6 +946,9 @@ footer li span{
 
 }
 
+
+/*----------聯絡我們----------*/
+
 .contact_banner{
     text-align: center;
     margin-top:30px ;
@@ -1036,6 +1052,10 @@ footer li span{
     
 }
 
+
+/*----------課程----------*/
+
+
 .course_pic{
     text-align: center;
     margin-top: 30px;
@@ -1129,6 +1149,8 @@ footer li span{
     
 }
 
+/*----------登入----------*/
+
 .login_banner{
     text-align: center;
     margin-top: 30px;
@@ -1177,7 +1199,7 @@ footer li span{
 }
 
 .login_1 h1{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
     color: #656c72;
     margin-bottom: 5px;
@@ -1185,10 +1207,11 @@ footer li span{
 }
 
 .login_1 .email{
-    border: 1px solid white;
+    border: 1px solid #656c72;
     width: 320px;
     height: 28px;
     margin-bottom: 25px;
+    background-color: #F7f1e9;
 }
 
 .login_1 .password{
