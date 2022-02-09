@@ -1207,11 +1207,11 @@ footer li span{
 }
 
 .login_1 .email{
-    border: 1px solid #656c72;
+    border: 1px solid #ffffff;
     width: 320px;
     height: 28px;
     margin-bottom: 25px;
-    background-color: #F7f1e9;
+    /* background-color: #F7f1e9; */
 }
 
 .login_1 .password{
