@@ -132,39 +132,52 @@ body{
 }
 
 
-.item_top img{
-	margin-top:20px;
-    margin-left: 220px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+.item_banner{
+    background-image: url(../IMG/course1-1.png);
+    height: 400px;
+    margin-bottom: 20px;
+    /* position: relative; */
 
+}
+
+.item_banner h1{
+    color: #ffffff;
+    font-size: inherit;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 170px;
 }
 
 
 
 
-.item_top button{
-    background-color: #F7f1e9;
-    margin-right: 20px;
-    height: 30px;
-    width: 100px;
+.item_top{
+    display: inline-flex;
+    margin-left: 230px;
     /* border-radius: 5px; */
-    border: 1.5px solid #656c72;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, .1);
+    /* border: 1.5px solid #656c72; */
+    /* text-shadow: 1px 1px 1px rgba(255, 255, 255, .1);
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: all o.15s ease;
+    transition: all o.15s ease; */
+    /* border-bottom:1px solid #ffffff ; */
     
 
 
 }
 
-.item_top button:hover{
-    border: 3px solid #656c72;
+.item_top a:hover{
+    color: #dfcece;
 }
 
 
 .item_top .bt1{
-    margin-left: 220px;
+   /* border-bottom:1px solid #656c72 ; */
+}
+
+.item_top .btn2{
+    margin-left: 30px;
+    /* border-left:1px solid #656c72; */
+    
 }
 
 
@@ -172,8 +185,9 @@ body{
     display: block;
     color: #656c72;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
+    border-bottom:1px solid #656c72 ;
 
     
 }

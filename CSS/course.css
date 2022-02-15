@@ -133,15 +133,22 @@ body{
 }
 
 .course_pic{
+    background-image: url(../IMG/course1-3.png);
+    height: 400px;
+    margin-bottom: 30px;
+    /* background-repeat: no-repeat; */
+
+}
+
+.course_pic{
+    color: #ffffff;
+    font-size: inherit;
+    font-size: 25px;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 40px;
-
+    padding-top: 170px;
 }
 
-.course_pic img{
-    border-radius: 10px;
-}
+
 
 .course_introduce{
     text-align: center;
