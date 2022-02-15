@@ -150,7 +150,7 @@ body{
 }
 
 .contact_introduce{
-    padding: 30px 250px;
+    padding: 30px 270px;
     position: relative;
     /* border: 1px solid black; */
     height: 500px;
@@ -186,7 +186,7 @@ body{
 .contact_input{
     position: absolute;
     top: 25px;
-    right: 405px;
+    right: 385px;
     border-left: 2px solid #656c72;
     height: 480px;
 
