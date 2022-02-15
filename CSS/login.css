@@ -134,28 +134,66 @@ body{
 
 
 .login_banner{
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    background-image: url(../IMG/login1.png);
+    height: 400px;
+    position: relative;
+    
 }
 
-.login_banner img{
-    border-radius: 10px;
+.login_banner h1{
+    /* position: absolute; */
+    color: #ffffff;
+    font-size: inherit;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 170px;
+
 }
+
 
 .login_1{
-    padding: 30px 250px;
+    padding: 30px 240px;
     position: relative;
-    height: 500px;
+    height: 600px;
     /* border: 1px solid black; */
     font-family: inherit;
 }
 
+.login_top{
+    /* border: 1px solid red; */
+    width: 490px;
+    padding-left: 50px;
+}
+
+.login_1 .login_top h1{
+    font-family: inherit;
+    /* font-weight: normal; */
+    font-size: 35px;
+}
+
+.login_top h2{
+    font-size: 20px;
+    color: #656c72;
+    margin-top:0 ;
+    font-family: inherit;
+}
+
+.login_top p{
+    font-size: 15px;
+    color: #656c72;
+    margin-top: 20px;
+    line-height: 1.4;
+
+}
+
+
+
 .login_2{
     position: absolute;
-    top: 28px;
-    right: 360px;
+    top: 150px;
+    right: 300px;
     border-left: 1px solid #656c72;
+
 }
 
 .login_1 ul{
@@ -172,16 +210,20 @@ body{
     border:#e2e5c7;
     font-size: 20px;
     width: 100px;
+    text-align: center;
     border-radius: 10px;
+    font-family: inherit;
     font-weight: bold;
     margin-bottom: 30px;
-    height: 30px;
+    height: 25px;
     margin-top: 20px;
+
     
 }
 
 .login_1 h1{
-    font-size: 18px;
+    font-size: 20px;
+    font-family: inherit;
     font-weight: normal;
     color: #656c72;
     margin-bottom: 5px;
@@ -206,14 +248,14 @@ body{
 
 .login_2 .phone_number{
     border: 1px solid white;
-    width: 250px;
+    width: 200px;
     height: 28px;
     margin-bottom: 50px;
 }
 
 .login_1 .fp{
     background-color: #F7f1e9;
-    width: 90px;
+    width: 170px;
     height: 25px;
     border:1px solid #656c72;
     margin-bottom: 40px;
@@ -228,6 +270,8 @@ body{
     text-decoration: none;
     color: #656c72;
 }
+
+
 
 .login_btn2{
     background-color: #F7f1e9;

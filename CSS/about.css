@@ -136,6 +136,28 @@ body{
 
 .about_main{
     text-align: center;
+   
+}
+
+
+.about_second{
+    background-image: url(../IMG/about_banner2_1png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    /* text-align: center; */
+    height: 303px;
+    /* border: 1px solid black; */
+    
+}
+
+.about_second h1{
+    font-size: 26px;
+    line-height: 1.6;
+    position: absolute;
+    top: 40px;
+    right: 30%;
+    color: #656c72;
 }
 
 
@@ -189,6 +211,7 @@ body{
     font-size: 20px;
     font-family: 'Merriweather', serif;
 }
+
 
 footer{
     /* position: relative; */
