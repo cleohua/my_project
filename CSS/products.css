@@ -119,7 +119,7 @@ body{
 
 }
 
-.about_nav:hover .pro_li{
+.nav_pro:hover .pro_li{
     display: block;
 }
 

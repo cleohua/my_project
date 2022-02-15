@@ -88,6 +88,7 @@ body{
 .pro_li{
     display: none;
     position: absolute;
+    z-index: 2;
     list-style: none;
     background-color: rgba(255, 255, 255, .5);
     width: 120px;
@@ -119,7 +120,7 @@ body{
 
 }
 
-.about_nav:hover .pro_li{
+.nav_pro:hover .pro_li{
     display: block;
 }
 
