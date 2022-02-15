@@ -104,7 +104,25 @@ body{
     
     
 }
+.home_header a{
+    display: block;
+    font-family: 'Merriweather', serif;
+    color:white;
+    text-decoration: none;
 
+    
+}
+
+
+.home_header a:hover{
+    display: block;
+    color: #656c72; /* 當滑鼠經過時，超連結文字顏色變成桃紅色 */
+    position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
+    top: 2px;
+    left: 3px;
+
+
+}
 
 .pro_li{
     display: none;
@@ -135,26 +153,8 @@ body{
 
 }
 
-.home_header a{
-    display: block;
-    font-family: 'Merriweather', serif;
-    color:white;
-    text-decoration: none;
-
-    
-}
 
 
-
-.home_header a:hover{
-    display: block;
-    color: #656c72; /* 當滑鼠經過時，超連結文字顏色變成桃紅色 */
-    position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
-    top: 2px;
-    left: 3px;
-
-
-}
 
 
 .first{
