@@ -202,12 +202,12 @@ body{
 .item_introduce button{
     display: block;
     text-align: left;
-    font-size: 25px;
+    font-size:20px;
     font-family: inherit;
     margin-top:50px ;
-    background-color: #e6e7e0;
-    border: 2px solid #656c72;
-    border-radius: 20px;
+    background-color: #F7f1e9;
+    border: 1px solid #656c72;
+    border-radius: 5px;
     width: 150px;
     height: 40px;
 
@@ -220,6 +220,11 @@ body{
     color: #656c72;
     font-family: inherit;
 
+}
+
+.item_introduce button:hover{
+    border: 2px solid #656c72;
+    font-weight: bold;
 }
 
 
