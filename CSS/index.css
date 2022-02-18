@@ -416,14 +416,11 @@ footer{
 
 
 .footer{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
-/* footer img{
-    width: 1455px;
 
-} */
 
 footer .test{
     text-align: center;
@@ -537,6 +534,15 @@ footer li span{
         left: 150px;
     }
 
+    .footer li:first-child{
+        padding: 0;
+        margin-left: 270px;
+    }
+
+    .footer li:nth-child(2){
+        padding-right: 280px;
+    }
+
    
    
 }
@@ -575,10 +581,7 @@ footer li span{
         transform: translateX(0%);
     }
 
-    .first .ba4{
-        display: none;
-    }
-
+ 
   
 
 }
@@ -620,12 +623,13 @@ footer li span{
         /* border: 1px solid brown; */
         /* height: 40px; */
         margin-top:20px ;
+        margin-left: 80px;
 
 
     }
 
     .footer li:nth-child(2){
-        /* padding-right: 300px; */
+        padding-right: 100px;
         /* border: 1px solid black; */
         overflow: hidden;
         /* margin-bottom: 30px; */
@@ -635,11 +639,11 @@ footer li span{
 
     .footer .test{
         /* border: 1px solid blue; */
-        margin-right: 290px;
+        margin-right: 0;
         margin-bottom: 30px;
     }
 
-  
+   
 
  
  
@@ -716,26 +720,28 @@ footer li span{
         /* border: 1px solid brown; */
         /* height: 40px; */
         margin-top:20px ;
+        margin-left: 50px;
 
 
     }
 
     .footer li:nth-child(2){
-        /* padding-right: 300px; */
+        padding-right: 50px;
         /* border: 1px solid black; */
         overflow: hidden;
         /* margin-bottom: 30px; */
         padding-top: 0;
-        margin-right: 210px;
+        /* margin-right: 210px; */
     }
 
 
     .footer .test{
         /* border: 1px solid blue; */
-        margin-right: 530px;
+        margin-right: 0;
         margin-bottom: 30px;
     }
 
+  
 
     
 
@@ -820,7 +826,10 @@ footer li span{
         background-image: none;
         background-color: #556952;
         margin-top: 30px;
-        font-size: 0;
+        /* font-size: 0; */
+        border: 1px solid black;
+       
+
     }
 
 
@@ -841,15 +850,10 @@ footer li span{
         overflow: hidden;
         /* margin-bottom: 30px; */
         padding-top: 0;
-        margin-right: 780px;
+        /* margin-right: 780px; */
     }
 
 
-    .footer .test{
-        /* border: 1px solid blue; */
-        margin-right: 795px;
-        margin-bottom: 30px;
-    }
 
     .footer li i{
         font-size: 15px;
@@ -861,17 +865,15 @@ footer li span{
     }
 
     .footer .test{
-    
-        white-space:pre-wrap; 
+        margin-right: 0px;
+        margin-bottom: 30px;
+        /* white-space:pre-wrap; 
         width: 250px;
         height: 60px;
-       
-       
-    
+        */
         
     } 
 
-    
 
 
    
