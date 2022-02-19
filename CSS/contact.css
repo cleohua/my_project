@@ -135,6 +135,8 @@ body{
 .contact_banner{
     background-image: url(../IMG/contact1-1.png);
     height: 400px;
+    background-size: cover;
+   
    
 }
 

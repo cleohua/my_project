@@ -137,6 +137,7 @@ body{
     background-image: url(../IMG/course1-3.png);
     height: 400px;
     margin-bottom: 30px;
+    background-size: cover;
     /* background-repeat: no-repeat; */
 
 }

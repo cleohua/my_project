@@ -136,6 +136,7 @@ body{
     background-image: url(../IMG/course1-1.png);
     height: 400px;
     margin-bottom: 20px;
+    background-size: cover;
     /* position: relative; */
 
 }
