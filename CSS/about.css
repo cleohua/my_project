@@ -665,14 +665,14 @@ footer li span{
     .googlemap .g_left h1{
         font-size: 22px;
         position: absolute;
-        left: 20px;
+        left: 10px;
 
     }
 
     .googlemap .g_left h2{
         font-size: 13px;
         position: absolute;
-        left: 20px;
+        left: 10px;
         top:100px
     }
 
