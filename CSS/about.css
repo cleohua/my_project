@@ -23,8 +23,7 @@ body{
 
 }
 
-
-.about_header .logo{
+.logo{
     width: 100px;
     height: 130px;
     margin-left: 10px;
@@ -95,14 +94,6 @@ body{
 
 }
 
-.about_header li a:hover{
-    display: block;
-    color: #d3cc89;
-    position: relative;
-    top: 2px;
-    left: 3px;
-}
-
 .about_header .ham{
     color: #ffffff;
     font-size: 34px;
@@ -113,6 +104,23 @@ body{
     display: none;
 
 }
+.about_header a:hover{
+    display: block;
+    color: #d3cc89;
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+
+.about_header a:first-child:hover{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+
+
 
 .pro_li{
     display: none;
@@ -157,7 +165,7 @@ body{
    text-align: center;
    position: relative;
    /* border: 1px solid red; */
-   z-index: 3;
+   /* z-index: 3; */
 }
 
 .about_second .abc_img{
