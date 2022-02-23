@@ -797,11 +797,6 @@ footer li span{
         height: 112px;
     }
 
-    .second{
-        border: 1px solid black;
-        
-    }
-
 
     .second ul{
         display: inline;
@@ -826,13 +821,9 @@ footer li span{
         margin-top: -50px;
     }
 
-    .second .pro1_img{
-        /* margin-right: 55px; */
-    }
-
-    .second .pro2_img{
-        /* margin-right: 55px; */
-    }
+   .second{
+       height: 780px;
+   }
 
     .second .sp1{
         width: 283px;
