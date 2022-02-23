@@ -565,6 +565,10 @@ footer li span{
         font-size: 32px;
     }
 
+    .items li{
+        margin-right: 0;
+    }
+
     .items li img{
         width: 350px;
         height: 350px;

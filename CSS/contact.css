@@ -94,8 +94,18 @@ body{
 
 }
 
+.about_header .ham{
+    color: #ffffff;
+    font-size: 34px;
+    position: absolute;
+    /* font-weight: bold; */
+    bottom: 30%;
+    right: 40px;
+    display: none;
+}
 
-.about_header li a:hover{
+
+.about_header a:hover{
     display: block;
     color: #d3cc89;
     position: relative;
@@ -293,7 +303,7 @@ footer{
 
 
 .footer{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
