@@ -567,6 +567,7 @@ footer li span{
 
     .items li{
         margin-right: 0;
+        padding-right: 20px;
     }
 
     .items li img{
