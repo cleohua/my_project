@@ -585,8 +585,14 @@ footer li span{
         display: inline-block;
         margin-left: 4%;
         width: 95%;
-        padding: 30px auto;
+        /* padding: 30px auto; */
+
+
     }
+
+    /* .pic_left{
+        margin-bottom: 20px;
+    } */
 
 
     .pic_left .left_firstpic{
