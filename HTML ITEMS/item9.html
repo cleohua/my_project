@@ -34,17 +34,16 @@
 
     <div class="item_pic">
         <div class="pic_left">
-        <img src="../IMG/item9-1.png" alt="" class="left_firstpic">
-            <ul class="left_ul">
-                 <li>
-                     <a href="#">
-                         <img src="../IMG/item9-2.png" alt="">
-                     </a>
+        <img src="../IMG/item9-1.png" alt="" class="left_firstpic" id="picX">
+            <ul class="left_ul" id="picb">
+                <li>
+                    <img src="../IMG/item9-1.png" alt="">
                 </li>
                  <li>
-                     <a href="#">
-                         <img src="../IMG/item9-3.png" alt="">
-                     </a>
+                    <img src="../IMG/item9-2.png" alt="">
+                </li>
+                 <li>
+                    <img src="../IMG/item9-3.png" alt="">
                  </li>
             </ul> 
         </div>
@@ -68,10 +67,6 @@
 
 
     </div>
-
-
-   
-
 
 
 
@@ -105,6 +100,21 @@
             
 
     </footer>
+
+    <script>    
+
+        let img = picb.getElementsByTagName("img");
+        let BigGallery =document.getElementById("picX");
+        
+        for (i = 0; i < img.length; i++) {
+        img[i].onclick = function () {
+            BigGallery.src = this.src;
+            return false;
+            }
+        }
+        
+        
+    </script>
 
 </body>
 </html>

@@ -162,19 +162,32 @@ body{
     width: 100%;
 }
 
-.item_pic .pic_left ul li{
+.pic_left ul li{
     list-style: none;
+    display: list-item;
+    text-align: match-parent;
     /* text-align: left; */
-    margin-right: 15px;
+    margin-right: 20px;
     /* margin-left: 5px; */
     margin-top: 5px;
-    /* outline: 1px solid gray; */
-    /* padding: 13px 5px 0 5px; */
+    width: 150px;
+    height: 150px;
     
+}
+
+.pic_left ul li img{
+    width: 150px;
+    height: 150px;
+
+}
+
+.item_pic .pic_left ul li img{
+    cursor: pointer;
 }
 
 .item_pic .pic_left ul li:first-child{
     margin-left: 10px;
+   
 }    
 
 .item_pic .pic_left ul li img{
@@ -570,8 +583,9 @@ footer li span{
 
     .item_pic{
         display: inline-block;
-        margin-left: 1%;
-        padding: 30px 15px;
+        margin-left: 4%;
+        width: 95%;
+        padding: 30px auto;
     }
 
 
