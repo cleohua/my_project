@@ -94,6 +94,36 @@
                 </li>
             </ul>
         </div>
+
+        <script src="../JS/jquery-3.6.0.min.js"></script>
+
+        <script>
+            
+        window.onload = function(){
+        let nav = document.getElementsByClassName('about_nav').getElementsByTagName('li');
+        for (var i=0; i<nav.length; i++){
+            nav[i].onclick = function(){
+                nav[i].style = color:yellow;
+                }
+            this.className='current';
+            }
+        }
+
+
+
+
+
+            // let nav = document.getElementsByClassName("about_nav");
+            // // console.log(nav)
+            // for(i= 0; i<= nav.length; i++){
+            //    if(nav.childNodes[i].nodeType==1){
+            //     nav.childNodes[i].style="color:blue";
+
+            //    }
+            // }
+
+
+        </script>
         
             
 

@@ -85,6 +85,10 @@ body{
     font-size: 14px;
 }
 
+.about_nav li:nth-child(2) a{
+    color: #d3cc89;
+}
+
 .about_header a{
     display: block;
     font-family: 'Merriweather', serif;

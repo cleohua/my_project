@@ -108,7 +108,9 @@ body{
 
 }
 
-
+.about_nav li:nth-child(3) a{
+    color: #d3cc89;
+}
 
 .about_header a{
     display: block;
