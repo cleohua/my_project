@@ -137,7 +137,7 @@ body{
     
 }
 
-.pro_li a{
+.pro_li li a{
     font-size: 17px;
     line-height: 2;
     width: 120px;
@@ -150,6 +150,18 @@ body{
 
 }
 
+.pro_li li:first-child a{
+    color:#656c72;
+}
+
+.pro_li li:nth-child(2) a{
+    color:#656c72;
+}
+
+
+.pro_li li a:hover{
+    color: #d3cc89;
+}
 
 
 

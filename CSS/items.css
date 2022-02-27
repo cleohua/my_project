@@ -140,7 +140,18 @@ body{
 
 }
 
+.pro_li li:first-child a{
+    color:#656c72;
+}
 
+.pro_li li:nth-child(2) a{
+    color:#656c72;
+}
+
+
+.pro_li li a:hover{
+    color: #d3cc89;
+}    
 
 
 .nav_pro:hover .pro_li{

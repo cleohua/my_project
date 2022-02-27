@@ -108,6 +108,8 @@ body{
 
 }
 
+   
+
 .about_nav li:nth-child(3) a{
     color: #d3cc89;
 }
@@ -150,6 +152,19 @@ body{
     top: 0;
     left: 0;
 }
+
+.pro_li li:first-child a{
+    color:#ffffff;
+}
+
+.pro_li li:nth-child(2) a{
+    color:#ffffff;
+}
+
+
+.pro_li li a:hover{
+    color: #d3cc89;
+}    
 
 
 .item_banner{
