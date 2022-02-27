@@ -97,6 +97,22 @@
 
     </footer>
 
+
+    <script>
+        var hambtn = document.getElementsByClassName("ham");
+        for(let i = 0; i < hambtn.length; i++){
+            hambtn[i].addEventListener("click", function(){
+                let home = document.getElementsByClassName("home_header")[0]
+                home.classList.toggle("-on");
+
+            });
+
+        }
+
+
+
+    </script>
+
     
 </body>
 </html>

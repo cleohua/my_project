@@ -12,6 +12,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <style>
+        .container-fluid {
+            padding: 20px 20px;
+            margin: 0 50px;
+            text-align: center;
+
+           
+        } 
+         .container-fluid .box {
+            margin-bottom: 20px;
+            float: left;
+            width: 300px;
+            height: 490px;
+            margin-left:10px ;
+        }
+         .box img {
+             max-width: 100%;
+             display: block;
+        }  
+        .box .inside{
+            background-color: #556952;
+        }
+        .box .inside p{
+            color: white;
+            line-height: 1.5;
+        }
+    </style>
 </head>
 <body>
     <header  class="about_header">
@@ -33,34 +60,53 @@
     </header>
 
 
-    <div  class="design_main">
-        <ul>
-            <li class="db1">
-                <img src="../IMG/design.ba1.png" alt="" >
-                <div><p>日期:2021/03/22 <br>#攝影棚佈置</p></div>
-            </li>
-            <li class="db2">
-                <img src="../IMG/design.ba2.png" alt="">
-                <div><p>日期:2022/01/13 <br>#居家佈置</p></div>
-            </li>
-            <li class="db3">
-                <img src="../IMG/design.ba3.png" alt="">
-                <div><p>日期:2021/05/22 <br>#攝影棚佈置</p></div>
-            </li>
-            <li class="db4">
-                <img src="../IMG/design.ba4.png" alt="">
-                <div><p>日期:2021/03/22 <br>#生日宴會佈置</p></div>
-            </li>
-            <li class="db5">
-                <img src="../IMG/design.ba5.png" alt="">
-                <div><p>日期:2021/11/12 <br>#寶寶滿月派對佈置</p></div>
-            </li>
-            <li class="db6">
-                <img src="../IMG/design.ba6.png" alt="">
-                <div><p>日期:2021/12/18 <br>#求婚場地佈置</p></div>
-            </li>
-        </ul>
+    <div  id="masonry" class="container-fluid">
 
+        <div class="box">
+            <img src="../IMG/design.ba3.png" alt="">
+            <div class="inside"><p>日期:2021/03/22 <br>#攝影棚佈置</p></div>
+        </div>
+
+        <div class="box">
+            <img src="../IMG/design.ba5.png" alt="">
+            <div class="inside"><p>日期:2020/11/25 <br>#攝影棚佈置</p></div>
+        </div>
+
+        <div class="box">
+            <img src="../IMG/design.ba6.png" alt="">
+            <div class="inside"><p>日期:2021/05/05 <br>#求婚佈置</p></div>
+        </div>
+
+
+        <div class="box">
+            <img src="../IMG/de1.jpg" alt="">
+            <div class="inside"><p>日期:2020/04/15 <br>#居家佈置</p></div>
+        </div>
+
+        <div class="box">
+            <img src="../IMG/de2.jpg" alt="">
+            <div class="inside"><p>日期:2021/03/22 <br>#攝影棚佈置</p></div>
+        </div>
+
+
+        <div class="box">
+            <img src="../IMG/de3.jpg" alt="">
+            <div class="inside"><p>日期:2022/02/22 <br>#居家佈置</p></div>
+        </div>
+
+
+        <div class="box">
+            <img src="../IMG/de4.jpg" alt="">
+            <div class="inside"><p>日期:2021/03/22 <br>#生日佈置</p></div>
+        </div>
+
+        <div class="box">
+            <img src="../IMG/de5.jpg" alt="">
+            <div class="inside"><p>日期:2021/03/22 <br>#開幕典禮佈置</p></div>
+        </div>
+
+
+       
 
     </div>
 
@@ -69,8 +115,7 @@
 
 
 
-    <footer>
-        <!-- <img src="../IMG/footer.png" alt=""> -->
+    <!-- <footer>
         <div class="footer">
             <ul>
                 <li>
@@ -95,7 +140,23 @@
         
             
 
-    </footer>
+    </footer> -->
+
+    <script src="../JS/masonry.js"></script>
+    <script src="../JS/jquery-3.6.0.min.js"></script>
+    <script>
+      $(function() {
+    var $container = $('#masonry');
+    $container.imagesLoaded(function() {
+        $container.masonry({
+                itemSelector: '.box',
+                gutter: 20,
+                isAnimated: true,
+            });
+     });
+    });
+
+    </script>
 
 </body>
 </html>
