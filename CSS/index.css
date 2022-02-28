@@ -118,7 +118,7 @@ body{
     font-size: 34px;
     position: absolute;
     /* font-weight: bold; */
-    bottom: 50px;
+    bottom: 30%;
     right: 40px;
     display: none;
 
@@ -568,28 +568,44 @@ footer li span{
 
     .home_header .navbar{
         /* border: 1px solid black; */
-        height: 100%;
+        height: 200%;
+        width: 100%;
         position: absolute;
         display: block;
         top: 100px;
         right: 0;
         text-align: left;
+        
+        background-color: rgba(199, 195, 195, 0.8);
+        margin:  0 auto;
+        margin-top: 15px;
+        display: none;
+        z-index: 10;
        
     }
 
-    .navbar li{
-        border: 1px solid red;
+    .navbar ul{
+        /* border: 1px solid red; */
         width: 100%;
-        padding: 10px;
+        /* padding: 10px; */
         /* transition: all 1s; */
         transform: translateX(100%);
-        display: none;
+        /* display: none; */
 
     }
 
-    .navbar li.-on{
-        transform: translateX(0%);
+    .navbar a{
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 30px;
     }
+
+    .home_header .navbar.-on{
+        display: block;
+    } 
+
+
 
     .ba4{
         display: none;
@@ -793,8 +809,8 @@ footer li span{
     }
 
     .home_header .logo{
-        width: 87px;
-        height: 112px;
+        width: 77px;
+        height: 100px;
     }
 
 

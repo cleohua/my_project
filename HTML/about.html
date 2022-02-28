@@ -18,7 +18,7 @@
         <header  class="about_header">
             <a href="../HTML/index.html"><img src="../IMG/white_logo.png" alt=""  class="logo"></a>
             <div class="about_search"><i class="fa-solid fa-magnifying-glass"></i><input class ="home_input" type="search"></div>
-            <div class="ham"><a href="#"><i class="fa-solid fa-bars"></i></a></div>
+            <div class="ham"><a href="#"  class="ham_a"><i class="fa-solid fa-bars"></i></a></div>
             <ul class="about_nav">
                 <li class="nav_about"><a href="../HTML/about.html">about</a></li>
                 <li class="nav_design"><a href="../HTML/design.html">Floral Design</a></li>
@@ -95,35 +95,7 @@
             </ul>
         </div>
 
-        <script src="../JS/jquery-3.6.0.min.js"></script>
-
-        <script>
-            
-        window.onload = function(){
-        let nav = document.getElementsByClassName('about_nav').getElementsByTagName('li');
-        for (var i=0; i<nav.length; i++){
-            nav[i].onclick = function(){
-                nav[i].style = color:yellow;
-                }
-            this.className='current';
-            }
-        }
-
-
-
-
-
-            // let nav = document.getElementsByClassName("about_nav");
-            // // console.log(nav)
-            // for(i= 0; i<= nav.length; i++){
-            //    if(nav.childNodes[i].nodeType==1){
-            //     nav.childNodes[i].style="color:blue";
-
-            //    }
-            // }
-
-
-        </script>
+        <script src="../JS/all.js"></script>
         
             
 

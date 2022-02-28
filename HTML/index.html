@@ -18,7 +18,7 @@
     <header  class="home_header">
         <img src="../IMG/white_logo.png" alt=""  class="logo">
          <div class="search"><i class="fa-solid fa-magnifying-glass"></i><input class ="home_input" type="search"></div>
-        <div class="ham"><a href="#"><i class="fa-solid fa-bars"></i></a></div>
+        <div class="ham"><a href="#"  class="ham_a"><i class="fa-solid fa-bars"></i></a></div>
         <ul class="navbar">
             <li class="nav_about"><a href="../HTML/about.html">about</a></li>
             <li class="nav_design"><a href="../HTML/design.html">Floral Design</a></li>
@@ -98,20 +98,7 @@
     </footer>
 
 
-    <script>
-        var hambtn = document.getElementsByClassName("ham");
-        for(let i = 0; i < hambtn.length; i++){
-            hambtn[i].addEventListener("click", function(){
-                let home = document.getElementsByClassName("home_header")[0]
-                home.classList.toggle("-on");
-
-            });
-
-        }
-
-
-
-    </script>
+    <script src="../JS/index.js"></script>
 
     
 </body>
