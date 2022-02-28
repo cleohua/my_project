@@ -460,6 +460,10 @@ footer li span{
        
     }
 
+    .pro_li{
+        display: none;
+    }
+
     .about_nav ul{
         
         width: 100%;
