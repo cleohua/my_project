@@ -443,9 +443,7 @@ footer li span{
         display: none;
     }
     
-    .pro_li{
-        display: none;
-    }
+    
 
     .about_header .about_nav{
         /* border: 1px solid black; */
@@ -464,14 +462,15 @@ footer li span{
        
     }
 
-    
+    .pro_li{
+        display: inline;
+    }
 
     .about_nav ul{
         
         width: 100%;
         transform: translateX(100%);
        
-
     }
 
     .about_nav a{
