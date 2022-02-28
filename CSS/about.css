@@ -462,8 +462,8 @@ footer li span{
        
     }
 
-    .pro_li{
-        display: inline;
+    .nav_pro:hover .pro_li{
+        display: none;
     }
 
     .about_nav ul{
