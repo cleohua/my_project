@@ -442,6 +442,10 @@ footer li span{
     .about_header .about_search{
         display: none;
     }
+    
+    .pro_li{
+        display: none;
+    }
 
     .about_header .about_nav{
         /* border: 1px solid black; */
@@ -460,9 +464,7 @@ footer li span{
        
     }
 
-    .pro_li{
-        display: none;
-    }
+    
 
     .about_nav ul{
         
