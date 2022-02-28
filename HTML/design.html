@@ -13,10 +13,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
     <style>
+       
         .container-fluid {
             padding: 20px 0;
             margin: 0 40px;
             text-align: center;
+            margin-left: 20px;
 
            
         } 
@@ -60,7 +62,8 @@
     </header>
 
 
-    <div  id="masonry" class="container-fluid">
+    
+        <div  id="masonry" class="container-fluid">
 
         <div class="box">
             <img src="../IMG/design.ba3.png" alt="">
@@ -113,6 +116,8 @@
   
 
 
+    
+
 
 
     <!-- <footer>
@@ -141,21 +146,75 @@
             
 
     </footer> -->
-    <script src="../JS/all.js"></script>
 
-    <script src="../JS/masonry.js"></script>
-    <script src="../JS/jquery-3.6.0.min.js"></script>
+
+
+    <script src="../JS/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    
+
     <script>
-      $(function() {
-    var $container = $('#masonry');
-    $container.imagesLoaded(function() {
-        $container.masonry({
-                itemSelector: '.box',
-                gutter: 20,
-                isAnimated: true,
-            });
-     });
-    });
+
+        $('.container-fluid').masonry({
+        // itemSelector : 預設值是 .item ，指定哪些子元素將用作佈局中的項元素(選擇器)
+        itemSelector: '.box'
+        })
+
+
+    // $('#container').masonry({itemSelector: '.box'});
+
+    //   $(function() {
+    // var $container = $('#masonry');
+    // $container.imagesLoaded(function() {
+    //     $container.masonry({
+    //             itemSelector: '.box',
+    //             gutter: 20,
+    //             isAnimated: true,
+    //         });
+    //  });
+    // });
+
+
+    // $(function(){ 
+    //     $('#container').masonry({ 
+    //     // options 
+    //     itemSelector : '.box', 
+    //     columnWidth : 240 
+    //     }); 
+    // });
+
+
+
+
+//     $(function() {
+//     var $objbox = $("#masonry");
+//     var gutter = 25;
+//     var centerFunc, $top0;
+//     $objbox.imagesLoaded(function() {
+//         $objbox.masonry({
+//             itemSelector: "#masonry > .box",
+//             gutter: gutter,
+//             isAnimated: true
+//         });
+//         centerFunc = function() {
+//             $top0 = $objbox.children("[style*='top: 0']");
+//             $objbox.css("left", ($objbox.width() - ($top0.width() * $top0.length + gutter * ($top0.length - 1))) / 2).parent().css("overflow", "hidden");
+//         };
+//         centerFunc();
+//     });
+//     var tur = true;
+//     $(window).resize(function() {
+//         if (tur) {
+//             setTimeout(function() {
+//                 tur = true;
+//                 centerFunc();
+//             },
+//             1000);
+//             tur = false;
+//         }
+//     });
+// });
 
     </script>
 
