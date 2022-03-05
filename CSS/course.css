@@ -506,7 +506,15 @@ footer li span{
 
 @media screen and (min-width: 576px) and (max-width: 767.98px){
    
+    /*--DOM換行--*/
 
+    /* .down_pic{
+        order: 2;
+    }
+
+    .course_p2{
+        order: 1;
+    } */
     .course_introduce{
         padding: 0;
     }
@@ -517,6 +525,13 @@ footer li span{
         padding: 0;
         
     }
+
+    .course_introduce li:nth-child(2){
+        margin-bottom: 30px;
+    }
+
+  
+
 
     .cp2{
         width: 100%;
